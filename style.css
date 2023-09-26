@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@600&family=Poppins:ital,wght@0,300;1,300&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@600&family=Poppins:ital,wght@0,300;1,300&family=Roboto:wght@300&display=swap");
+
+body {
+  font-family: "League Spartan", sans-serif;
+  color: whitesmoke;
+  font-size: 20px;
+}
+
+.heading-container {
+  display: grid;
+  place-items: center;
+  color: black;
+}
+.quiz {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+form {
+  background: blueviolet;
+  padding: 40px 200px;
+  margin: 20px 0;
+}
+
+form h3{
+    font-weight: 600;
+    font-size: 70px;
+}
+
+.submit{
+    padding: 10px 5px;
+    margin-top: 80px;
+}
+
+input{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+input:hover{
+    cursor: pointer;
+}
