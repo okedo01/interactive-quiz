@@ -4,119 +4,134 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Ninja Quiz</title>
+    <title>Javascript Quiz</title>
   </head>
   <body>
     <div class="heading-container">
-      <h1>Ninja Quiz</h1>
+      <h1>Javascript Quiz</h1>
     </div>
-    
+<!-- result section -->
+<div class="result">
+    <div class="container-lead">
+        <p>You are <span class="text">0%</span> Ninja</p>
+    </div>
+</div>
+<!-- quiz section -->
     <form class="quiz-form">
-        <h3>On these questions...</h3>
+      <h3>On these questions...</h3>
 
+      <div>
+        <p>1. What does JavaScript primarily do in web development?</p>
         <div>
-            <p>1. What does JavaScript primarily do in web development?</p>
-            <div>
-                <input type="radio" name="q1" value="A" checked>
-                <label class="form-checked">Style web pages</label>
-            </div>
-            <div>
-                <input type="radio" name="q1" value="B">
-                <label class="form-checked">Create and manage databases</label>
-            </div>
-            <div>
-                <input type="radio" name="q1" value="C">
-                <label class="form-checked">Add interactivity to websites</label>
-            </div>
-            <div>
-                <input type="radio" name="q1" value="D">
-                <label class="form-checked">Generate server-side content</label>
-            </div>
+          <input type="radio" name="q1" value="A" checked />
+          <label class="form-checked">Style web pages</label>
         </div>
+        <div>
+          <input type="radio" name="q1" value="B" />
+          <label class="form-checked">Create and manage databases</label>
+        </div>
+        <div>
+          <input type="radio" name="q1" value="C" />
+          <label class="form-checked">Add interactivity to websites</label>
+        </div>
+        <div>
+          <input type="radio" name="q1" value="D" />
+          <label class="form-checked">Generate server-side content</label>
+        </div>
+      </div>
 
+      <div>
+        <p>2. Which of the following is NOT a data type in JavaScript?</p>
         <div>
-            <p>2. Which of the following is NOT a data type in JavaScript?</p>
-            <div>
-                <input type="radio" name="q2" value="A" checked>
-                <label class="form-checked">String</label>
-            </div>
-            <div>
-                <input type="radio" name="q2" value="B">
-                <label class="form-checked"> Integer</label>
-            </div>
-            <div>
-                <input type="radio" name="q2" value="C">
-                <label class="form-checked"> Object</label>
-            </div>
-            <div>
-                <input type="radio" name="q2" value="D">
-                <label class="form-checked"> Boolean</label>
-            </div>
+          <input type="radio" name="q2" value="A" checked />
+          <label class="form-checked">String</label>
         </div>
+        <div>
+          <input type="radio" name="q2" value="B" />
+          <label class="form-checked"> Integer</label>
+        </div>
+        <div>
+          <input type="radio" name="q2" value="C" />
+          <label class="form-checked"> Object</label>
+        </div>
+        <div>
+          <input type="radio" name="q2" value="D" />
+          <label class="form-checked"> Boolean</label>
+        </div>
+      </div>
 
+      <div>
+        <p>
+          3.What keyword is used to declare a variable in JavaScript with block
+          scope?
+        </p>
         <div>
-            <p>3.What keyword is used to declare a variable in JavaScript with block scope?</p>
-            <div>
-                <input type="radio" name="q3" value="A" checked>
-                <label class="form-checked">var</label>
-            </div>
-            <div>
-                <input type="radio" name="q3" value="B">
-                <label class="form-checked"> const</label>
-            </div>
-            <div>
-                <input type="radio" name="q3" value="C">
-                <label class="form-checked"> let</label>
-            </div>
-            <div>
-                <input type="radio" name="q3" value="D">
-                <label class="form-checked"> def</label>
-            </div>
+          <input type="radio" name="q3" value="A" checked />
+          <label class="form-checked">var</label>
         </div>
+        <div>
+          <input type="radio" name="q3" value="B" />
+          <label class="form-checked"> const</label>
+        </div>
+        <div>
+          <input type="radio" name="q3" value="C" />
+          <label class="form-checked"> let</label>
+        </div>
+        <div>
+          <input type="radio" name="q3" value="D" />
+          <label class="form-checked"> def</label>
+        </div>
+      </div>
 
+      <div>
+        <p>4.What is the purpose of the "if" statement in JavaScript?</p>
         <div>
-            <p>4.What is the purpose of the "if" statement in JavaScript?</p>
-            <div>
-                <input type="radio" name="q4" value="A" checked>
-                <label class="form-checked">To declare a function</label>
-            </div>
-            <div>
-                <input type="radio" name="q4" value="B">
-                <label class="form-checked">To loop through an array</label>
-            </div>
-            <div>
-                <input type="radio" name="q4" value="C">
-                <label class="form-checked">To create an object</label>
-            </div>
-            <div>
-                <input type="radio" name="q4" value="D">
-                <label class="form-checked">To execute code conditionally</label>
-            </div>
+          <input type="radio" name="q4" value="A" checked />
+          <label class="form-checked">To declare a function</label>
         </div>
+        <div>
+          <input type="radio" name="q4" value="B" />
+          <label class="form-checked">To loop through an array</label>
+        </div>
+        <div>
+          <input type="radio" name="q4" value="C" />
+          <label class="form-checked">To create an object</label>
+        </div>
+        <div>
+          <input type="radio" name="q4" value="D" />
+          <label class="form-checked">To execute code conditionally</label>
+        </div>
+      </div>
 
+      <div>
+        <p>
+          5.Which built-in method is used to add an element to the end of an
+          array in JavaScript?
+        </p>
         <div>
-            <p>5.Which built-in method is used to add an element to the end of an array in JavaScript?</p>
-            <div>
-                <input type="radio" name="q5" value="A" checked>
-                <label class="form-checked">push()</label>
-            </div>
-            <div>
-                <input type="radio" name="q5" value="B">
-                <label class="form-checked">append()</label>
-            </div>
-            <div>
-                <input type="radio" name="q5" value="C">
-                <label class="form-checked">add()</label>
-            </div>
-            <div>
-                <input type="radio" name="q5" value="D">
-                <label class="form-checked">insert()</label>
-            </div>
+          <input type="radio" name="q5" value="A" checked />
+          <label class="form-checked">push()</label>
         </div>
-        <div class="submit">
-            <input type="submit">
+        <div>
+          <input type="radio" name="q5" value="B" />
+          <label class="form-checked">append()</label>
         </div>
+        <div>
+          <input type="radio" name="q5" value="C" />
+          <label class="form-checked">add()</label>
+        </div>
+        <div>
+          <input type="radio" name="q5" value="D" />
+          <label class="form-checked">insert()</label>
+        </div>
+      </div>
+      <div class="submit">
+        <input type="submit" />
+      </div>
     </form>
+    <footer>
+      <p class="copyright">Developed by Okedo &copy; 2023</p>
+    </footer>
     <script src="sandbox.js"></script>
   </body>
 </html>

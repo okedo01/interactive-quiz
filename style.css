@@ -23,21 +23,42 @@ form {
   margin: 20px 0;
 }
 
-form h3{
-    font-weight: 600;
-    font-size: 70px;
+form h3 {
+  font-weight: 600;
+  font-size: 70px;
 }
 
-.submit{
-    padding: 10px 5px;
-    margin-top: 80px;
+.submit {
+  padding: 10px 5px;
+  margin-top: 80px;
 }
 
-input{
-    font-size: 18px;
-    font-weight: 600;
+input {
+  font-size: 18px;
+  font-weight: 600;
 }
 
-input:hover{
-    cursor: pointer;
+input:hover {
+  cursor: pointer;
+}
+
+footer {
+  display: flex;
+  justify-content: end;
+  color: #1a1818;
+}
+
+.result{
+  display: none;
+  color: #1a1818;
+  text-align: center;
+}
+
+.container-lead p{
+  font-size: 40px;
+}
+
+.result .text{
+  font-size: 100px;
+  color: blue;
 }
