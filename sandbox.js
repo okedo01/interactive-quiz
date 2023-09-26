@@ -1,7 +1,5 @@
 const correctAnswers = ['C', 'B', 'C', 'D', 'A'];
 const form = document.querySelector('.quiz-form');
-const result = document.querySelector('.result');
-const submit = document.querySelector('.submit');
 const scoreSpan = document.getElementById('score')
 
 form.addEventListener('submit', e => {
@@ -18,11 +16,17 @@ form.addEventListener('submit', e => {
         }
     })
 
+
+
     scoreSpan.innerText = `${score}%`;
 
     result.style.display = 'block';
 
+scrollTo({
+    top: 0,
+    behavior: "smooth",
 
+})
 
 
 
