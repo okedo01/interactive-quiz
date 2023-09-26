@@ -1,5 +1,8 @@
 const correctAnswers = ['C', 'B', 'C', 'D', 'A'];
 const form = document.querySelector('.quiz-form');
+const result = document.querySelector('.result');
+const submit = document.querySelector('.submit');
+const scoreSpan = document.getElementById('score')
 
 form.addEventListener('submit', e => {
     e.preventDefault();
@@ -11,9 +14,22 @@ form.addEventListener('submit', e => {
     userAnswer.forEach((answer, index) => {
         if(answer === correctAnswers[index]){
             score += 20;
+           
         }
     })
+
+    scoreSpan.innerText = `${score}%`;
+
+    result.style.display = 'block';
+
+
+
+
+
     console.log(score);
+ 
+
+    
 });
 
 
